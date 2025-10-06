@@ -116,8 +116,8 @@ S:AddCallbackForAddon("GearScore", "GearScore", function()
 	end
 
 	S:HandleCheckBox(GS_DetailCheck)
-	-- S:HandleCheckBox(GS_DateCheck)
-	-- S:HandleCheckBox(GS_HelpCheck)
+	S:HandleCheckBox(GS_DateCheck)
+	S:HandleCheckBox(GS_HelpCheck)
 	S:HandleCheckBox(GS_ChatCheck)
 
 	S:HandleEditBox(GS_LevelEditBox)
